@@ -1,0 +1,5 @@
+Analisis dan diskusi
+
+Program pertama melatih CNN (Convolutional Neural Network) untuk mengklasifikasikan gambar ke dalam 6 kategori menggunakan TensorFlow dan Keras. Model ini memiliki dua lapisan konvolusi dengan ReLU, pooling untuk mengurangi dimensi, serta lapisan fully connected dengan dropout agar tidak overfitting. Data juga diproses dengan augmentasi seperti rotasi dan zoom untuk meningkatkan akurasi. Model ini cukup efektif, tetapi bisa lebih baik dengan lapisan tambahan, transfer learning, atau early stopping agar pelatihan lebih optimal.
+
+	Program kedua menggunakan model yang sudah dilatih untuk prediksi real-time dari kamera dengan OpenCV. Setiap frame diambil, diproses, lalu diklasifikasikan oleh model, dan hasilnya ditampilkan di layar. Ada juga mode Night Vision, di mana gambar dikonversi ke grayscale dan diberi efek warna. Program ini bekerja cepat, tetapi masih bisa ditingkatkan dengan menambahkan confidence score, mengatasi variasi objek baru, atau mengoptimalkan kecepatan inferensi.
